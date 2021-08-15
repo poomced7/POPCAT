@@ -1,0 +1,31 @@
+F12
+------------------------------------------------------------
+
+javascript:(function () { 
+    var script =  document.createElement('script');
+    script.src="//cdn.jsdelivr.net/npm/eruda"; 
+    document.body.appendChild(script);
+    script.onload = function () { 
+        eruda.init() 
+    } 
+})();
+
+------------------------------------------------------------
+
+
+
+
+POPCAT
+------------------------------------------------------------
+
+var event = new KeyboardEvent('keydown', {
+ key: 'g',
+ ctrlKey: true
+});
+setInterval(function(){
+ for (i = 0; i < 100; i++) {
+ document.dispatchEvent(event);
+ }
+}, 0);
+
+-----------------------------------------------------------
