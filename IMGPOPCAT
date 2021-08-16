@@ -1,3 +1,17 @@
+****************F12**********************
+
+javascript:(function () { 
+    var script =  document.createElement('script');
+    script.src="//cdn.jsdelivr.net/npm/eruda"; 
+    document.body.appendChild(script);
+    script.onload = function () { 
+        eruda.init() 
+    } 
+})();
+
+
+*************IMG*************************
+
 document.title = "POPTOO"
 a = document.createElement("span")
 a.innerHTML = "ตีหัวผมหน่อย"
