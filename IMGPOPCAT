@@ -1,1 +1,9 @@
-
+document.title = "POPTOO"
+a = document.createElement("span")
+a.innerHTML = "ตีหัวผมหน่อย"
+a.style.font = "60px Nunito,sans-serif"
+st = document.createElement("style")
+st.innerHTML = '.p {background-image: url("https://www.img.in.th/images/40fa467872a13ffe351c9c0b4d587141.png")} .op {background-image: url("https://www.img.in.th/images/0bea0b85cdffc1dc29325586e4d41a9b.png")}'
+document.body.appendChild(st)
+cat = document.querySelector("div.cat-img")
+cat.parentNode.insertBefore(a,cat)
